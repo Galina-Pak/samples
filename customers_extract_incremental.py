@@ -179,8 +179,8 @@ if __name__ == '__main__':
     #source configs:
     SOURCE = config['api']['api_source']   #'shopify'
     API = config['api']['api_customers']   #'Customers'
-    API_USER = config['api']['api_user']   #'ae45b158125c41eed1efd3183e752e1c'
-    API_PWD = config['api']['api_pwd']   #'557f2a26c8dece721f4930d2881de069'
+    API_USER = config['api']['api_user']
+    API_PWD = config['api']['api_pwd']
     PAGE_LIMIT = int(config['api']['api_page_limit'])   #250
     #target configs:
     SERVICE_ACCOUNT_KEY_FILE = config['gcp']['service_account_key_file']
